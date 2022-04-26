@@ -4,6 +4,7 @@ import Navbar from './components/UI/navbar/nav';
 import Footer from './components/UI/footer/footer';
 import Main from './components/UI/main/main';
 import SlidingBanner from './components/UI/slidingBanner/Slidingbanner';
+import Table from './components/UI/table/table';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar/>
         <Main/>
         <SlidingBanner/>
+        <Table/>
         <Footer/>
     </div>
   );
